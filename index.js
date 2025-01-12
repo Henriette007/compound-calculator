@@ -2,11 +2,6 @@
 
 const prompt = require('prompt-sync')()
 
-//let initAmount = 20000
-//let monthlyContribution = 400
-//let numberOfYears = 30
-//let interestRate = 10
-
 //Step 1 - define a function we can use to calculate the final value of the compounded interest
 
 function compundInterest(initAmount, monthlyContribution, numberOfYears, interestRate){
@@ -28,8 +23,6 @@ function calculateRegularAmount(initAmount, monthlyContribution, numberOfYears)
     
     return regularValue.toFixed(2)
     }
-
-
 
 //step 3 - to create a run function that then prompts the user for all the necessary inpots required to calculate the final amounts
 
